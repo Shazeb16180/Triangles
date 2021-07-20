@@ -1,0 +1,66 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: absolute;
+    top:10px;
+    bottom:10px;
+    left:10px;
+    right:10px;
+}
+#first,#at,#ch,#area{
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.col1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.metric{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+    border: 1px solid black;
+}
+#at button,#ch button,#area button,#quiz button{
+    margin:20px auto;
+    width:60px;
+    height: 40px;
+    
+}
+#at input,#ch input,#a input,#b input,#c input{
+    margin: 20px;
+    width: 50px;
+    height:45px;
+}
+#ch img{
+    width:22%;
+}
+#area #list div{
+    border: 1px solid black;
+    width: 300px;
+    text-align: left;
+    margin: 5px auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+#a,#b,#c,#error{
+    display:none;
+}
+ol{
+    padding-left:2px;
+}
+li{
+    padding: 2px;
+    border: 1px solid black;
+    margin: 5px;
+}
+li div{
+    text-align: left;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles</title>
+    <link href="stylish.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="area">
+            <button><a href="index.html">Go Back</a></button>
+            <h1>Calculate Area</h1>
+            <h2>Select an option below as per the data you have for a triangle</h2>
+            <div id="list">
+                <div><input type="radio" name="hello" value="a" onclick="handleClick(this)"><span>If you have base and height length</span></div>
+                <div><input type="radio"  name="hello" value="b" onclick="handleClick(this)">If you have length of 3 sides</div>
+                <div><input type="radio" name="hello"  value="c" onclick="handleClick(this)">If you have length of 2 sides and included angle</div>
+            </div>
+            <form>
+            <div id="a">
+                Base:<input type="number" id="a1" required>
+                Height:<input type="number" id="a2" required >
+            </div>
+            <div id="b">
+                A:<input type="number" id="b1" required>
+                B:<input type="number" id="b2" required>
+                C:<input type="number"id="b3" required>
+            </div>
+            <div id="c">
+                A:<input type="number" id="c1" required>
+                B:<input type="number" id="c2" required>
+                Angle:<input type="number" id="c3" required>
+            </div>
+            <button onclick="calcArea()">Submit</button>
+        </form>
+            <div id="error">Enter valid side lengths such that each side length should be less than sum of other two side</div>
+            <div id="result">
+                Output Will be Shown Here
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js" type="text/javascript"></script>
+
+</html>
