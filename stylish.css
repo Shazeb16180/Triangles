@@ -11,8 +11,6 @@
 }
 #first,#at,#ch,#area{
     text-align: center;
-    border: 1px solid black;
-    
 }
 .col1{
     display: grid;
@@ -43,7 +41,6 @@
     width:22%;
 }
 #area #list div{
-    border: 1px solid black;
     width: 300px;
     text-align: left;
     margin: 5px auto;
@@ -63,8 +60,4 @@ li{
 }
 li div{
     text-align: left;
-}
-#quiz{
-    border: 1px solid black;
-    min-height: 0;
 }

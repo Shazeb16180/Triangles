@@ -33,7 +33,7 @@ function handleClick(radio){
 }
 function calcArea(){
     var area;
-    console.log("Enetr"+checkedOne);
+    console.log("Enter"+checkedOne);
     if(checkedOne=="#a"){
         var txt1=parseInt(document.querySelector("#a1").value);
         var txt2=parseInt(document.querySelector("#a2").value);
@@ -66,11 +66,17 @@ function calcArea(){
         document.querySelector("#result").innerHTML="Area is:"+area;
 
     }
+    if(checkedOne.length==0){
+        console.log("empty")
+        document.querySelector("#result").innerHTML="Select One of the Option";
+
+    }
+
     
 }
 var quizUser=[];
 var score1=0;
-var quizAnswer=["a", "b", "a", "a", "a", "b", "b", "c", "c", "c"];
+var quizAnswer=["a", "b", "a", "a", "a", "b", "b"];
 var i=0;
 function quizhandleClick(e){
     console.log("Entered counter");
