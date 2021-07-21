@@ -70,7 +70,7 @@ function calcArea(){
 }
 var quizUser=[];
 var score1=0;
-var quizAnswer=["a","a","a","a","a","a"];
+var quizAnswer=["a", "b", "a", "a", "a", "b", "b", "c", "c", "c"];
 var i=0;
 function quizhandleClick(e){
     console.log("Entered counter");
