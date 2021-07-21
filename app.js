@@ -99,4 +99,5 @@ function quizCheck(){
     }
     console.log(score1);
     document.querySelector("#result2").innerHTML="Score is:"+score1;
+    document.querySelector("#bt").style.display="none";
 }
