@@ -72,3 +72,17 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+
+footer img{
+    width:30px;
+}
+footer{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 2px;
+    display: inline;
+}
