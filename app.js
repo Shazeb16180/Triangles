@@ -3,12 +3,17 @@ function checkAngle(){
     var txt2=parseInt(document.querySelector("#txt2").value);
     var txt3=parseInt(document.querySelector("#txt3").value);
     var sum=txt1+txt2+txt3;
+    if(txt1>0&&txt2>0&&txt3>0){
     if(sum==180){
         document.querySelector("#result").innerHTML="Congrats It's a Triangle";
     }
     else{
         document.querySelector("#result").innerHTML="Oops It's  not a Triangle";
     }
+ }
+ else{
+    document.querySelector("#result").innerHTML="Enter Valid Angles";
+ }
 }
 function getHypo(){
     var txt1=parseInt(document.querySelector("#txt1").value);
