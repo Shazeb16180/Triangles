@@ -29,6 +29,8 @@ function handleClick(radio){
     for(var x=0;x<selected1.length;x++){
         if(selected1[x]==result){
             document.querySelector("#"+radio.value).style.display="block";
+            document.querySelector("#error").style.display="none";
+         document.querySelector("#result").innerHTML="Output is shown below:";
         }
         else{
             document.querySelector(selected1[x]).style.display="none";

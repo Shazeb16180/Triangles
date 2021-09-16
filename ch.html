@@ -17,8 +17,8 @@
             <img src="images/triangle.png">
             <form onsubmit="getHypo(); return false">
             <div id="number">
-                <strong>a=</strong><input type="number" id="txt1" min="1" required>
-                <strong>b=</strong><input type="number" id="txt2" min="1" required>
+                <strong>a=</strong><input type="number" id="txt1" min="1"  oninput="validity.valid||(value=' ');"required>
+                <strong>b=</strong><input type="number" id="txt2" min="1"oninput="validity.valid||(value=' ');" required>
             </div>
             <button>Submit</button>
         </form>
